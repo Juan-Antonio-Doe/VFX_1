@@ -14,14 +14,14 @@ public class QTE_2 : MonoBehaviour {
     private float timer;
 
     void Start() {
-
+        anim.SetFloat("Speed", 0);
     }
 
     void Update() {
         if (completed) 
             return;
 
-        //anim.speed = 0f;
+        //anim.SetFloat("Speed", 0);
 
         if (keyIcon.activeSelf) {
             keyIcon.SetActive(false);
@@ -32,7 +32,7 @@ public class QTE_2 : MonoBehaviour {
         if (Input.GetKeyDown(keyToPress)) {
             timer = timeBetweenPresses;
             //anim.speed = 5f;
-            anim.speed = 1f;
+            anim.SetFloat("Speed", 1);
         }
 
         timer -= Time.deltaTime;
@@ -40,12 +40,17 @@ public class QTE_2 : MonoBehaviour {
         if (timer <= 0) {
             timer = 0;
             if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0) {
-                anim.speed = -1f;
+                anim.SetFloat("Speed", -1);
             }
             else {
-                anim.speed = 0f;
+                anim.SetFloat("Speed", 0);
             }
         }
+    }
 
+    public void Complete() {
+        completed = true;
+        anim.SetFloat("Speed", 1);
+        keyIcon.SetActive(false);
     }
 }

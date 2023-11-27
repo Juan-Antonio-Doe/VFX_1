@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1056839087}
-  timeBetweenPresses: 0.1
+  timeBetweenPresses: 0.15
   keyToPress: 101
   keyIcon: {fileID: 684070246}
 --- !u!1 &1063515337
