@@ -12,7 +12,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _FADING_ON
   - _NORMALMAP
+  - _SOFTPARTICLES_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _FLIPBOOKBLENDING_OFF
@@ -278,7 +280,7 @@ Material:
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
+    - _SoftParticlesEnabled: 1
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -325,7 +327,7 @@ Material:
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
