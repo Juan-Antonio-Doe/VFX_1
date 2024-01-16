@@ -216,6 +216,7 @@ MonoBehaviour:
     width: 1146
     height: 680
   m_MinSize: {x: 202, y: 221}
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
@@ -1441,7 +1442,7 @@ MonoBehaviour:
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
   m_SceneViewState:
-    m_AlwaysRefresh: 1
+    m_AlwaysRefresh: 0
     showFog: 1
     showSkybox: 1
     showFlares: 1
@@ -1482,9 +1483,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.05792939, y: -0.26600987, z: 0.016664268, w: -0.9620838}
   m_Size:
-    m_Target: 1.4509221
+    m_Target: 0.51528
     speed: 2
-    m_Value: 1.4509221
+    m_Value: 0.51528
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1552,18 +1553,18 @@ MonoBehaviour:
       m_ExpandedIDs: ccf4ffff2efbffffd0680000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: 2_Hologram
+        m_OriginalName: 2_Hologram
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -15960
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -1719,7 +1720,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Resources/_Shaders/5_VertexDisplacement
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Users\jaespinosag\Escritorio\Asignaturas\_Unity\Proyectos\VFX_1
+  m_LastProjectPath: E:\Juan_Antonioxdxd\ESI\_Unity\VFX_1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
